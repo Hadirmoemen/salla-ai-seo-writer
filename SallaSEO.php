@@ -27,18 +27,7 @@ class SallaSEO
         return $rawToken;
     }
 
-    /**
-     * 1. إرسال اسم المنتج للـ AI لتوليد وصف SEO احترافي
-/**
-     * 1. إرسال اسم المنتج للـ AI لتوليد وصف SEO احترافي
-     */
-   /**
-     * 1. إرسال اسم المنتج للـ AI لتوليد وصف SEO احترافي
-     */
-  
-    /**
-     * 2. تحديث وصف المنتج في سلة عبر REST API
-     */
+
     /**
      * 1. إرسال اسم المنتج لـ Groq AI لتوليد وصف SEO احترافي
      */
@@ -94,9 +83,7 @@ class SallaSEO
 /**
      * 2. تحديث وصف المنتج في سلة عبر الـ API
      */
-   /**
-     * 2. تحديث وصف المنتج في سلة عبر الـ API
-     */
+
     public function updateProductDescription($productId, string $newDescription): bool
     {
         $url = rtrim($this->config['salla']['api_url'], '/') . '/products/' . $productId;
@@ -128,9 +115,7 @@ class SallaSEO
 
         return true;
     }
-    /**
-     * 3. جلب جميع منتجات المتجر مع كشف أخطاء الاتصال
-     */
+   
    /**
  * 3. جلب جميع منتجات المتجر (تتخطى الـ 20 منتج وتجلب كل الصفحات)
  */
